@@ -1,0 +1,51 @@
+body
+{
+    background: linear-gradient(to right top, rgb(112, 192, 80), rgb(39, 196, 245));
+}
+h1{
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+h4
+{
+    color:red;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+
+}
+
+#camera
+{
+    width: 500px;
+    height: 400px;
+    border:1px solid rgb(87, 2, 2);
+}
+
+img
+{
+    width: 37%;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+
+.column
+{
+    display: inline;
+    padding: 10px;
+}
+img:hover{
+    border-radius: 140px;
+}
+.copy_right_footer {
+    position: fixed;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    background-color: gainsboro;
+    line-height: 2;
+    text-align: center;
+    font-style: italic;
+ }
